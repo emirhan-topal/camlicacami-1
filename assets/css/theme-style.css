@@ -2171,7 +2171,7 @@ body a {
 }
 html a:hover,
 body a:hover {
-    color: #f1c152;
+    color: green;
     text-decoration: none;
 }
 img {
@@ -2232,7 +2232,7 @@ blockquote:before {
     top: 0;
     font-size: 2em;
     font-style: normal;
-    color: #F1C152;
+    color: green;
 }
 .peace-separator {
     width: 1px;
@@ -2259,7 +2259,7 @@ blockquote:before {
 /*  Base Title. */
 
 .custom-btn {
-    background: #f1c152;
+    background: green;
     margin-top: 30px;
     margin-bottom: 30px;
     font-weight: 700;
@@ -2274,7 +2274,7 @@ blockquote:before {
 }
 .peace-donate,
 .peace-donate input[type="submit"] {
-    background: #f1c152;
+    background: green;
     display: table;
     border-radius: 20px;
     padding: 5px 20px;
@@ -2302,7 +2302,7 @@ input.btn.peace-donate.pull-right {
 .paypal-field.panel-group .panel {
     margin-bottom: 0;
     border-radius: 4px;
-    border-bottom: 2px solid #F1C152;
+    border-bottom: 2px solid green;
 }
 .section-padding {
     padding-top: 100px;
@@ -2318,7 +2318,7 @@ input.btn.peace-donate.pull-right {
     margin-bottom: 80px;
 }
 .base-color {
-    color: #f1c152;
+    color: green;
 }
 .section-title {
     font-family: yellowtail;
@@ -2333,7 +2333,7 @@ input.btn.peace-donate.pull-right {
     content: "";
     width: 7px;
     height: 3px;
-    background: #F1C152;
+    background: green;
     position: absolute;
     bottom: -4px;
     left: 0px;
@@ -2615,8 +2615,8 @@ section:hover .section-title:before,
 }
 .pagination-nav li a:hover,
 .pagination-nav li.active a {
-    background-color: #f1c152;
-    border-color: #f1c152;
+    background-color: green;
+    border-color: green;
     color: #fff;
 }
 .archive article {
@@ -2642,7 +2642,7 @@ span.tag-links a {
     color: #706f6e;
 }
 span.tag-links a:hover {
-    color: #f1c152;
+    color: green;
 }
 .share-button a {
     color: #706f6e;
@@ -2800,7 +2800,7 @@ li.comment.even.thread-even {
 }
 #commentform input[type="submit"],
 #commentform button[type="submit"] {
-    background-color: #F1C152;
+    background-color: green;
     border: none;
     font-weight: 600;
     text-transform: uppercase;
@@ -2834,7 +2834,6 @@ p.logged-in-as {
     text-align: center;
     position: relative; 
     z-index: 1; 
-    background: url(../../images/09/chistian-quote-bg1.jpg) top center;
 }
 section.donate.section-padding {
     padding-top: 80px;
@@ -2857,7 +2856,6 @@ section.donate.section-padding {
 .donate .meter {
     height: 40px;
     /* Can be anything */
-    
     position: relative;
     margin: 0 auto;
     /* Just for demo spacing */
@@ -2867,8 +2865,8 @@ section.donate.section-padding {
     z-index: 1;
     border-radius: 25px;
     padding: 4px;
-    border: 2px solid rgba(206, 165, 70, 0.97);
-    box-shadow: inset 0px 0px 0px 4px black;
+    border: 2px solid rgba(29, 139, 4, 0.97);
+    box-shadow: inset 0px 0px 0px 4px rgb(52, 121, 3); */
 }
 .donate .meter > span {
     display: block;
@@ -2944,7 +2942,7 @@ section.donate.section-padding {
 }
 .donate .section-title {
     z-index: 1;
-    color: #f1c152;
+    color: green;
 }
 .donate .found {
     margin-bottom: 20px;
@@ -2952,7 +2950,7 @@ section.donate.section-padding {
     position: relative;
     z-index: 2;
     font-weight: bold;
-    color: #f1c152;
+    color: green;
 }
 .donate span {
     color: #180e0e;
@@ -2969,11 +2967,11 @@ section.donate.section-padding {
     display: inline-block;
     width: 190px;
     padding: 10px;
-    color: #f1c152;
+    color: '#f1c152';
     border-radius: 100%;
     margin-left: 32px;
     height: 190px;
-    border: 3px solid #f1c152;
+    border: 3px solid green;
 }
 .donate .donate-details .goal .content {
     background: rgba(255, 255, 255, 0.14);
@@ -2992,6 +2990,7 @@ section.donate.section-padding {
     top: 35px;
     font-size: 24px;
     font-family: "yellowtail";
+    color:#9b4a1b;
 }
 .donate .custom-btn {
     padding: 14px 45px;
@@ -3175,7 +3174,7 @@ h2.widget-title:after {
     padding: 10px 0;
 }
 .widget .nav-tabs {
-    border-bottom: 1px solid #f1c152;
+    border-bottom: 1px solid green;
     margin-bottom: 30px !important;
 }
 .widget .nav-tabs>li {
@@ -3250,7 +3249,7 @@ h2.widget-title:after {
 }
 .map-container {
     position: relative;
-    height: 600px;
+    height: 530px;
     width: 100%;
     display: table;
 }
@@ -3261,6 +3260,7 @@ h2.widget-title:after {
     padding-left: 50px;
     height: 100%;
     float: left;
+    width: 100%;
     position: absolute;
     top: 0;
     right: 0;
@@ -3269,9 +3269,9 @@ h2.widget-title:after {
     display: table;
 }
 .map-container .contact-info h2 {
-    font-family: yellowtail;
+    /* font-family: yellowtail;
     font-size: 2em;
-    margin-bottom: 15px;
+    margin-bottom: 15px; */
 }
 .map-container .contact-info img {
     float: left;
@@ -3330,7 +3330,7 @@ h2.widget-title:after {
 }
 .quotes .content h3 {
     font-size: 34px;
-    color: #f1c152;
+    color: green;
     margin: 0px;
     font-weight: bolder;
 }
@@ -3347,7 +3347,7 @@ h2.widget-title:after {
     right: -21px;
     width: 50px;
     height: 50px;
-    background-color: #F1C152;
+    background-color: green;
     border-radius: 100%;
     z-index: 1;
     box-shadow: 0 0 3px #ccc;
@@ -3357,7 +3357,7 @@ h2.widget-title:after {
 }
 .st0 {
  fill: none;
- stroke: #f1c152;
+ stroke: green;
  stroke-width: 2;
  stroke-miterlimit: 10;
 }
@@ -3382,7 +3382,7 @@ h2.widget-title:after {
     font-size: 15px;
 }
 .quotes .ref i {
-    color: #f1c152;
+    color: green;
     font-size: 15px;
 }
 .quotes .ref-location small {
@@ -3395,12 +3395,12 @@ h2.widget-title:after {
 /* #location
 ---------------------------------------------------------------*/
 
-#location {
+/* #location {
     background-color: #F7F7F7;
     background-color: #F7F7F7;
     border-bottom: 1px solid #ccc;
     box-shadow: 0 0px 1px #ccc;
-}
+} */
 #location .social-icons {
     padding: 20px 0;
 }
@@ -3485,7 +3485,7 @@ h2.widget-title:after {
 -----------------------------------------------------------*/
 
 .error-404 {
-    background: #f1c152;
+    background: green;
     padding-top: 250px;
     padding-bottom: 100px;
 }
@@ -3500,7 +3500,7 @@ h2.widget-title:after {
     font-size: 10em;
     font-family: roboto;
     font-weight: bolder;
-    color: #F1C152;
+    color: green;
 }
 .error-404 .heading-text:before {
     content: "";
@@ -3543,10 +3543,10 @@ h2.widget-title:after {
     border: none;
 }
 .error-404 .heading-text .go-back a {
-    border: 1px solid #F1C152;
+    border: 1px solid green;
     padding: 5px 10px;
     display: table;
-    color: #F1C152;
+    color: green;
     margin: 30px auto;
     font-weight: bold;
 }
@@ -3578,7 +3578,7 @@ footer.entry-footer {
     color: #ccc;
 }
 #footer {
-    padding: 40px 0;
+    padding: 5px 0;
 }
 #footer .logo {
     font-size: 2em;
@@ -3775,7 +3775,7 @@ footer.entry-footer {
 #top-section #peace-menu .nav > li > a:hover,
 #top-section #peace-menu .nav > li > a:focus,
 #top-section #peace-menu .nav > li > a:active {
-    color: #f1c152;
+    color: green;
     background: transparent;
 }
 #top-section #peace-menu .nav > li > a.donate-button {
@@ -3830,7 +3830,7 @@ transform: skewX(20deg);
     -webkit-transform-origin: top;
     -ms-transform-origin: top;
     transform-origin: top;
-    background-color: #f1c152;
+    background-color: green;
     margin-left: 15px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -3841,7 +3841,7 @@ transform: skewX(20deg);
     content: '';
     height: 70px;
     width: 30px;
-    background-color: #f1c152;
+    background-color: green;
     position: absolute;
     top: 0px;
     left: 0px;
@@ -3857,7 +3857,7 @@ transform: skewX(20deg);
     content: '';
     height: 70px;
     width: 30px;
-    background-color: #f1c152;
+    background-color: green;
     position: absolute;
     top: 0px;
     right: -30px;
@@ -3901,7 +3901,7 @@ transform: skewX(20deg);
         font-weight: 700;
     }
     .slider-section .slider-item span {
-        color: #f1c152;
+        color: green;
     }
     .slider-section .slider-item h3 {
         font-family: 'Yellowtail', cursive;
@@ -3919,7 +3919,7 @@ transform: skewX(20deg);
     background-color: #180e0e;
 }
 .event .section-title {
-    color: #f1c152;
+    color: green;
     font-size: 2.7em;
     margin: 0;
     padding-top: 30px;
@@ -3997,7 +3997,7 @@ transform: skewX(20deg);
     font-weight: 600;
     position: absolute;
     top: 20px;
-    color: #f1c152;
+    color: green;
 }
 .event .bgLayer .text p.time_text {
     font-size: 22px;
@@ -4047,7 +4047,7 @@ transform: skewX(20deg);
     color: #111;
 }
 .all-event .event-post a:hover {
-    color: #f1c152;
+    color: green;
     text-decoration: none;
 }
 .all-event .event-period {
@@ -4120,7 +4120,7 @@ transform: skewX(20deg);
 .all-event .events-date {
     width: 70px;
     height: 75px;
-    border: 3px solid #F1C152;
+    border: 3px solid green;
     text-align: center;
     border-radius: 3px;
     background-color: #111;
@@ -4132,7 +4132,7 @@ transform: skewX(20deg);
 .all-event .events-date span.event-date {
     font-size: 1.9em;
     font-weight: bold;
-    color: #F1C152;
+    color: green;
 }
 .all-event .events-date span.event-month {
     color: #ccc;
@@ -4178,7 +4178,7 @@ transform: skewX(20deg);
     box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
 }
 .progress-bar {
-    background-color: #f1c152;
+    background-color: green;
 }
 /*------------------------------------------------------------------------------------------------------------------*/
 /*      #piller of islam.
@@ -4213,7 +4213,7 @@ transform: skewX(20deg);
     height: 60px;
     text-align: center;
     line-height: 55px;
-    color: #f1c152;
+    color: green;
     border: 2px dotted #ccc;
     position: absolute;
     border-radius: 100%;
@@ -4230,7 +4230,7 @@ transform: skewX(20deg);
     height: 105px;
     text-align: center;
     line-height: 100px;
-    color: #f1c152;
+    color: green;
     border: 2px dotted #ccc;
     position: absolute;
     border-radius: 100%;
@@ -4240,18 +4240,18 @@ transform: skewX(20deg);
     background-color: #F7F7F7;
 }
 .piller-of-islam:hover .curve-line {
-    border-color: #f1c152;
+    border-color: green;
     -webkit-transition: 0.5s all ease;
     transition: 0.5s all ease;
     border-style: dashed;
 }
 .piller-of-islam:hover .curve-line:before {
-    border: 2px dashed #f1c152;
+    border: 2px dashed green;
     -webkit-transition: 0.3s all ease;
     transition: 0.3s all ease;
 }
 .piller-of-islam:hover .curve-line:after {
-    border: 2px dashed #f1c152;
+    border: 2px dashed green;
     -webkit-transition: 0.3s all ease;
     transition: 0.3s all ease;
 }
@@ -4297,13 +4297,13 @@ transform: skewX(20deg);
     transition-property: top, right, bottom, left;
 }
 .piler-of-islam .item:hover {
-    background: #f1c152;
-    border-color: #f1c152;
+    background: green;
+    border-color: green;
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
 }
 .piler-of-islam .item:hover:before {
-    border-color: #f1c152;
+    border-color: green;
     top: -12px;
     right: -12px;
     bottom: -12px;
@@ -4320,7 +4320,7 @@ transform: skewX(20deg);
     text-align: center;
 }
 .portfolio .read-more {
-    background: #f1c152;
+    background: green;
     padding: 25px;
     text-align: center;
     text-transform: uppercase;
@@ -4372,7 +4372,7 @@ transform: skewX(20deg);
 .portfolio-filter button:focus,
 .portfolio-filter button:hover {
     outline: none;
-    color: #f1c152;
+    color: green;
     box-shadow: none;
 }
 .portfolio-filter button:last-of-type:after {
@@ -4440,7 +4440,7 @@ transform: skewX(20deg);
 .effect-oscar .item-link a {
     border: 2px solid transparent;
     border-radius: 100%;
-    border: 2px solid #f1c152;
+    border: 2px solid green;
     width: 46px;
     height: 46px;
     display: block;
@@ -4465,11 +4465,11 @@ transform: skewX(20deg);
     margin-top: 1px;
     display: block;
     margin-left: 1px;
-    color: #F1C152;
+    color: green;
 }
 .effect-oscar:hover .item-link a {
     border-radius: 100%;
-    border: 2px solid #f1c152;
+    border: 2px solid green;
 }
 .effect-oscar:hover figcaption::before,
 .effect-oscar:hover .item-link a {
@@ -4567,19 +4567,19 @@ transform: skewX(20deg);
     transition-property: top, right, bottom, left;
 }
 .service .item:hover {
-    background: #f1c152;
-    border-color: #f1c152;
+    background: green;
+    border-color: green;
     transition-duration: 0.3s;
 }
 .service .item:hover:before {
-    border-color: #f1c152;
+    border-color: green;
     top: -7px;
     right: -7px;
     bottom: -7px;
     left: -7px;
 }
 .service .item:hover .item-element {
-    background: #F1C152;
+    background: green;
     -webkit-transition: 0.3s all ease;
     -o-transition: 0.3s all ease;
     transition: 0.3s all ease;
@@ -4699,10 +4699,10 @@ transform: skewX(20deg);
     margin-bottom: 0px;
 }
 .service .service-details .pooja:hover .head {
-    color: #f1c152;
+    color: green;
 }
 .service .service-details .darson:hover .head {
-    color: #f1c152;
+    color: green;
 }
 .service .service-details .darson {
     margin-bottom: 20px;
@@ -4755,7 +4755,7 @@ transform: skewX(20deg);
     content: "";
     width: 6px;
     height: 3px;
-    background: #F1C152;
+    background: green;
     position: absolute;
     bottom: -4px;
     left: 0px;
@@ -4846,18 +4846,18 @@ section:hover .what-we-do .section-title:before,
     color: #686664;
 }
 .about-us .service-details .darson:hover .head {
-    color: #F1C152;
+    color: green;
 }
 .about-us .darson:hover .item:before {
-    border-color: #f1c152;
+    border-color: green;
     top: -5px;
     right: -5px;
     bottom: -5px;
     left: -5px;
 }
 .about-us .darson:hover .item {
-    background: #f1c152;
-    border-color: #f1c152;
+    background: green;
+    border-color: green;
     transition-duration: 0.3s;
 }
 .about-us .darson:hover .item .item-element span {
@@ -4906,12 +4906,12 @@ section:hover .what-we-do .section-title:before,
     transition-property: top, right, bottom, left;
 }
 .about-us .item:hover {
-    background: #f1c152;
-    border-color: #f1c152;
+    background: green;
+    border-color: green;
     transition-duration: 0.3s;
 }
 .about-us .item:hover:before {
-    border-color: #f1c152;
+    border-color: green;
     top: -5px;
     right: -5px;
     bottom: -5px;
@@ -4926,7 +4926,7 @@ section:hover .what-we-do .section-title:before,
     background-image: url(../../images/09/section-bg.jpg);
 }
 .shedule h2 {
-    color: #f1c152;
+    color: green;
     margin: 0;
     margin-bottom: 30px;
 }
@@ -4945,7 +4945,7 @@ section:hover .what-we-do .section-title:before,
     content: "";
     width: 6px;
     height: 3px;
-    background: #F1C152;
+    background: green;
     position: absolute;
     bottom: -4px;
     left: 2px;
@@ -4972,7 +4972,7 @@ section:hover .shedule .section-title:before,
     color: #b2aaaa;
 }
 .shedule .shedule-list {
-    border: 2px solid #f1c152;
+    border: 2px solid green;
     padding: 30px 15px;
     border-radius: 7px;
     display: table;
@@ -5030,7 +5030,7 @@ section:hover .shedule .section-title:before,
     font-size: 15px;
 }
 .shedule .shedule-time:hover .hour h3 {
-    color: #f1c152;
+    color: green;
 }
 .shedule .shedule-time:after {
     content: "";
@@ -5060,12 +5060,12 @@ section:hover .shedule .section-title:before,
     margin-bottom: 0;
 }
 .shedule .sunrise {
-    border: 2px solid #f1c152;
+    border: 2px solid green;
     padding: 15px;
     border-radius: 7px;
     text-align: left;
     margin-top: 30px;
-    color: #f1c152;
+    color: green;
     width: 48%;
 }
 .sunrise img {
